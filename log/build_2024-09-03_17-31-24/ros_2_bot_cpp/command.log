@@ -1,0 +1,2 @@
+Invoking command in '/home/taishawn/ros2bot_ws/build/ros_2_bot_cpp': /usr/bin/cmake /home/taishawn/ros2bot_ws/src/ros_2_bot_cpp -DCMAKE_INSTALL_PREFIX=/home/taishawn/ros2bot_ws/install/ros_2_bot_cpp
+Invoked command in '/home/taishawn/ros2bot_ws/build/ros_2_bot_cpp' returned '1': /usr/bin/cmake /home/taishawn/ros2bot_ws/src/ros_2_bot_cpp -DCMAKE_INSTALL_PREFIX=/home/taishawn/ros2bot_ws/install/ros_2_bot_cpp

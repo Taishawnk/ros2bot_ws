@@ -1,0 +1,16 @@
+<package format="3">
+  <name>ros2_bot_description</name>
+  <version>0.0.1</version>
+  <description>The ros2_bot_description package</description>
+  <maintainer email="taishawnking1@yahoo.com">Taishawn</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>urdf</depend>
+  <depend>xacro</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,4 @@
+Invoking command in '/home/taishawn/ros2bot_ws/build/ros2_bot_description': /usr/bin/cmake --build /home/taishawn/ros2bot_ws/build/ros2_bot_description -- -j24 -l24
+Invoked command in '/home/taishawn/ros2bot_ws/build/ros2_bot_description' returned '0': /usr/bin/cmake --build /home/taishawn/ros2bot_ws/build/ros2_bot_description -- -j24 -l24
+Invoking command in '/home/taishawn/ros2bot_ws/build/ros2_bot_description': /usr/bin/cmake --install /home/taishawn/ros2bot_ws/build/ros2_bot_description
+Invoked command in '/home/taishawn/ros2bot_ws/build/ros2_bot_description' returned '0': /usr/bin/cmake --install /home/taishawn/ros2bot_ws/build/ros2_bot_description
