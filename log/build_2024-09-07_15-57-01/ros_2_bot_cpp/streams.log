@@ -1,0 +1,30 @@
+[0.006s] Invoking command in '/home/taishawn/ros2bot_ws/build/ros_2_bot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taishawn/ros2bot_ws/build/ros_2_bot_cpp -- -j24 -l24
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[0.040s] [ 33%] Built target simple_subscriber
+[0.040s] [ 66%] Built target simple_publisher
+[0.044s] [ 83%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[1.556s] [100%] [32m[1mLinking CXX executable simple_parameter[0m
+[1.614s] [100%] Built target simple_parameter
+[1.622s] Invoked command in '/home/taishawn/ros2bot_ws/build/ros_2_bot_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taishawn/ros2bot_ws/build/ros_2_bot_cpp -- -j24 -l24
+[1.642s] Invoking command in '/home/taishawn/ros2bot_ws/build/ros_2_bot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/taishawn/ros2bot_ws/build/ros_2_bot_cpp
+[1.646s] -- Install configuration: ""
+[1.646s] -- Up-to-date: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/lib/ros_2_bot_cpp/simple_publisher
+[1.646s] -- Up-to-date: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/lib/ros_2_bot_cpp/simple_subscriber
+[1.646s] -- Installing: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/lib/ros_2_bot_cpp/simple_parameter
+[1.647s] -- Set runtime path of "/home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/lib/ros_2_bot_cpp/simple_parameter" to ""
+[1.647s] -- Up-to-date: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ament_index/resource_index/package_run_dependencies/ros_2_bot_cpp
+[1.647s] -- Up-to-date: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ament_index/resource_index/parent_prefix_path/ros_2_bot_cpp
+[1.647s] -- Up-to-date: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ros_2_bot_cpp/environment/ament_prefix_path.sh
+[1.647s] -- Up-to-date: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ros_2_bot_cpp/environment/ament_prefix_path.dsv
+[1.647s] -- Up-to-date: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ros_2_bot_cpp/environment/path.sh
+[1.647s] -- Up-to-date: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ros_2_bot_cpp/environment/path.dsv
+[1.647s] -- Up-to-date: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ros_2_bot_cpp/local_setup.bash
+[1.647s] -- Up-to-date: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ros_2_bot_cpp/local_setup.sh
+[1.647s] -- Up-to-date: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ros_2_bot_cpp/local_setup.zsh
+[1.647s] -- Up-to-date: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ros_2_bot_cpp/local_setup.dsv
+[1.647s] -- Installing: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ros_2_bot_cpp/package.dsv
+[1.647s] -- Up-to-date: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ament_index/resource_index/packages/ros_2_bot_cpp
+[1.647s] -- Up-to-date: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ros_2_bot_cpp/cmake/ros_2_bot_cppConfig.cmake
+[1.647s] -- Up-to-date: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ros_2_bot_cpp/cmake/ros_2_bot_cppConfig-version.cmake
+[1.648s] -- Up-to-date: /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ros_2_bot_cpp/package.xml
+[1.649s] Invoked command in '/home/taishawn/ros2bot_ws/build/ros_2_bot_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/taishawn/ros2bot_ws/build/ros_2_bot_cpp

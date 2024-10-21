@@ -9,6 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(rcl_interfaces REQUIRED)
 
 #for my simpler publisher
 add_executable(simple_publisher src/simple_publisher.cpp)
@@ -18,10 +19,15 @@ ament_target_dependencies(simple_publisher rclcpp std_msgs)
 add_executable(simple_subscriber src/simple_subscriber.cpp)
 ament_target_dependencies(simple_subscriber rclcpp std_msgs)
 
+#simple paramiter
+add_executable(simple_parameter src/simple_parameter.cpp)
+ament_target_dependencies(simple_parameter rclcpp rcl_interfaces)# the ending are what the file need to run
+
 
 install(TARGETS 
   simple_publisher 
   simple_subscriber
+  simple_parameter
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

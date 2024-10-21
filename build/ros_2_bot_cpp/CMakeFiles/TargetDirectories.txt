@@ -2,6 +2,7 @@
 /home/taishawn/ros2bot_ws/build/ros_2_bot_cpp/CMakeFiles/ros_2_bot_cpp_uninstall.dir
 /home/taishawn/ros2bot_ws/build/ros_2_bot_cpp/CMakeFiles/simple_publisher.dir
 /home/taishawn/ros2bot_ws/build/ros_2_bot_cpp/CMakeFiles/simple_subscriber.dir
+/home/taishawn/ros2bot_ws/build/ros_2_bot_cpp/CMakeFiles/simple_parameter.dir
 /home/taishawn/ros2bot_ws/build/ros_2_bot_cpp/CMakeFiles/test.dir
 /home/taishawn/ros2bot_ws/build/ros_2_bot_cpp/CMakeFiles/edit_cache.dir
 /home/taishawn/ros2bot_ws/build/ros_2_bot_cpp/CMakeFiles/rebuild_cache.dir

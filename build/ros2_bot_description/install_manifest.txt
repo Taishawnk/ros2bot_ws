@@ -2,6 +2,7 @@
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/meshes/horizontal_arm.STL
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/meshes/plate.STL
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/meshes/right_finger.STL
+/home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/meshes/pi_camera.STL
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/meshes/forward_drive_arm.STL
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/meshes/vertical_drive_arm.STL
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/meshes/claw_support.STL
@@ -12,6 +13,8 @@
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/meshes/left_finger.STL
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/meshes/base_plate.STL
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/urdf/ros2bot.urdf.xacro
+/home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/launch/display.launch.py
+/home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/rviz/displayconfig.rviz
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ament_index/resource_index/package_run_dependencies/ros2_bot_description
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ament_index/resource_index/parent_prefix_path/ros2_bot_description
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/environment/ament_prefix_path.sh

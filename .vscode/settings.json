@@ -7,5 +7,8 @@
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ],
-    "cmake.sourceDirectory": "/home/taishawn/ros2bot_ws/src/ros_2_bot_cpp"
+    "cmake.sourceDirectory": "/home/taishawn/ros2bot_ws/src/ros_2_bot_cpp",
+    "files.associations": {
+        "functional": "cpp"
+    }
 }

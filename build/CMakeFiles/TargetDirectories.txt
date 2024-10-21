@@ -1,0 +1,12 @@
+/home/taishawn/ros2bot_ws/build/CMakeFiles/uninstall.dir
+/home/taishawn/ros2bot_ws/build/CMakeFiles/ros_2_bot_cpp_uninstall.dir
+/home/taishawn/ros2bot_ws/build/CMakeFiles/simple_publisher.dir
+/home/taishawn/ros2bot_ws/build/CMakeFiles/simple_subscriber.dir
+/home/taishawn/ros2bot_ws/build/CMakeFiles/simple_parameter.dir
+/home/taishawn/ros2bot_ws/build/CMakeFiles/test.dir
+/home/taishawn/ros2bot_ws/build/CMakeFiles/edit_cache.dir
+/home/taishawn/ros2bot_ws/build/CMakeFiles/rebuild_cache.dir
+/home/taishawn/ros2bot_ws/build/CMakeFiles/list_install_components.dir
+/home/taishawn/ros2bot_ws/build/CMakeFiles/install.dir
+/home/taishawn/ros2bot_ws/build/CMakeFiles/install/local.dir
+/home/taishawn/ros2bot_ws/build/CMakeFiles/install/strip.dir

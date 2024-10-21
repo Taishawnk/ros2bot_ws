@@ -1,5 +1,6 @@
 /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/lib/ros_2_bot_cpp/simple_publisher
 /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/lib/ros_2_bot_cpp/simple_subscriber
+/home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/lib/ros_2_bot_cpp/simple_parameter
 /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ament_index/resource_index/package_run_dependencies/ros_2_bot_cpp
 /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ament_index/resource_index/parent_prefix_path/ros_2_bot_cpp
 /home/taishawn/ros2bot_ws/install/ros_2_bot_cpp/share/ros_2_bot_cpp/environment/ament_prefix_path.sh

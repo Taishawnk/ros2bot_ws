@@ -1,0 +1,2 @@
+Invoking command in '/home/taishawn/ros2bot_ws/build/ros_2_bot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taishawn/ros2bot_ws/build/ros_2_bot_cpp -- -j24 -l24
+Invoked command in '/home/taishawn/ros2bot_ws/build/ros_2_bot_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taishawn/ros2bot_ws/build/ros_2_bot_cpp -- -j24 -l24

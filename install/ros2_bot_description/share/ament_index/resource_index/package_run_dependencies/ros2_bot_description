@@ -1,1 +1,1 @@
-urdf;xacro
+urdf;xacro;joint_state;joint_state_publisher_gui;rviz2;ros2launch

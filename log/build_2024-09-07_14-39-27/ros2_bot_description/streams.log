@@ -1,0 +1,32 @@
+[0.007s] Invoking command in '/home/taishawn/ros2bot_ws/build/ros2_bot_description': /usr/bin/cmake --build /home/taishawn/ros2bot_ws/build/ros2_bot_description -- -j24 -l24
+[0.022s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.112s] Error parsing '/home/taishawn/ros2bot_ws/src/ros2_bot_description/package.xml':
+[0.134s] Traceback (most recent call last):
+[0.134s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.134s]     main()
+[0.134s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.134s]     raise e
+[0.134s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.134s]     package = parse_package_string(
+[0.135s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.135s]     pkg.validate(warnings=warnings)
+[0.135s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.135s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.135s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/taishawn/ros2bot_ws/src/ros2_bot_description/package.xml':
+[0.135s] Invalid email "taishawnking" for person "Taishawn"
+[0.142s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.142s]   execute_process(/usr/bin/python3
+[0.142s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.142s]   /home/taishawn/ros2bot_ws/src/ros2_bot_description/package.xml
+[0.142s]   /home/taishawn/ros2bot_ws/build/ros2_bot_description/ament_cmake_core/package.cmake)
+[0.142s]   returned error code 1
+[0.142s] Call Stack (most recent call first):
+[0.142s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.142s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[0.142s]   CMakeLists.txt:11 (ament_package)
+[0.142s] 
+[0.142s] [0m
+[0.142s] -- Configuring incomplete, errors occurred!
+[0.142s] See also "/home/taishawn/ros2bot_ws/build/ros2_bot_description/CMakeFiles/CMakeOutput.log".
+[0.144s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.146s] Invoked command in '/home/taishawn/ros2bot_ws/build/ros2_bot_description' returned '2': /usr/bin/cmake --build /home/taishawn/ros2bot_ws/build/ros2_bot_description -- -j24 -l24

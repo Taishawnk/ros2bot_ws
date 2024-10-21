@@ -1,0 +1,12 @@
+[0.006s] Invoking command in '/home/taishawn/ros2bot_ws/build/ros_2_bot_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taishawn/ros2bot_ws/build/ros_2_bot_cpp -- -j24 -l24
+[0.038s] [ 33%] Built target simple_subscriber
+[0.039s] [ 66%] Built target simple_publisher
+[0.039s] [ 83%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[0.159s] [01m[K/home/taishawn/ros2bot_ws/src/ros_2_bot_cpp/src/simple_parameter.cpp:7:9:[m[K [01;31m[Kfatal error: [m[Krclcpp/parameter_types.hpp: No such file or directory
+[0.159s]     7 | #include[01;31m[K<rclcpp/parameter_types.hpp>[m[K
+[0.159s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.159s] compilation terminated.
+[0.162s] gmake[2]: *** [CMakeFiles/simple_parameter.dir/build.make:76: CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o] Error 1
+[0.162s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_parameter.dir/all] Error 2
+[0.162s] gmake: *** [Makefile:146: all] Error 2
+[0.164s] Invoked command in '/home/taishawn/ros2bot_ws/build/ros_2_bot_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taishawn/ros2bot_ws/build/ros_2_bot_cpp -- -j24 -l24
