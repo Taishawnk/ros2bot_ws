@@ -8,6 +8,7 @@ from launch.substitutions import Command, LaunchConfiguration
 
 
 def generate_launch_description():
+    
     model_arg = DeclareLaunchArgument(
         name="model", 
         default_value = os.path.join(get_package_share_directory("ros2_bot_description"), "urdf", "ros2bot.urdf.xacro"), # opens path > opens urdf folder > opens urdf file
