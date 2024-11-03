@@ -13,6 +13,7 @@
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/meshes/left_finger.STL
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/meshes/base_plate.STL
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/urdf/ros2bot.urdf.xacro
+/home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/launch/gazebo.launch.py
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/launch/display.launch.py
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ros2_bot_description/rviz/displayconfig.rviz
 /home/taishawn/ros2bot_ws/install/ros2_bot_description/share/ament_index/resource_index/package_run_dependencies/ros2_bot_description

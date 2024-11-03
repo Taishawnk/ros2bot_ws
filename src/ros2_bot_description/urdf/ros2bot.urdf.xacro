@@ -9,19 +9,19 @@
 
     <!--rpy stand for Radians Pitch and Yaw xyz = axis directions  -->
     <!-- creating a macro function so I dont have to repeate code using xacro:macro -->
-     <xacro:macro name="default_inertial" params="mass">
-        <intertial>
-            <mass value ="${mass}" /><!--passing in param of mass-->
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
-        </intertial>
-        
-     </xacro:macro>
+    <xacro:macro name="default_inertial" params="mass">
+        <inertial>
+          <mass value="${mass}" />
+          <inertia ixx="1.0" ixy="0.0" ixz="0.0"
+                    iyy="1.0" iyz="0.0" izz="1.0" />
+        </inertial>
+    </xacro:macro>
     <!-- Define world link -->
     <link name="world"/>
 
     <!-- Define base link -->
     <link name="base_link">
-        <xacro:default_inert mass="1.0"/>
+        <xacro:default_inertial mass="1.0"/>
 
         <visual>
             <origin rpy="0 0 0" xyz="-0.5 -0.5 0"/>
@@ -47,7 +47,7 @@
 
     <!-- Define base plate link -->
     <link name="base_plate"> 
-        <xacro:default_inert mass="0.1"/>
+        <xacro:default_inertial mass="0.1"/>
         <visual>
             <origin rpy="0 0 0" xyz="-0.39 -0.39 -0.56"/>
             <geometry>
@@ -73,7 +73,7 @@
 
     <!-- Define forward drive arm link -->
     <link name="forward_drive_arm">
-        <xacro:default_inert mass="0.1"/>
+        <xacro:default_inertial mass="0.1"/>
         <visual>
             <origin rpy="0 -${PI / 2} ${PI / 2}" xyz="0.19 0.06 -0.08"/>
             <geometry>
@@ -100,7 +100,7 @@
     <!-- Define horizontal arm link -->
     <link name="horizontal_arm">
         <visual>
-            <xacro:default_inert mass="0.1"/>
+            <xacro:default_inertial mass="0.1"/>
             <origin rpy="-${PI / 2} 0 ${PI / 2}" xyz="-0.03 -0.4 -0.06"/>
             <geometry>
                 <mesh filename="package://ros2_bot_description/meshes/horizontal_arm.STL" scale="${scale}"/>
@@ -125,7 +125,7 @@
 
     <!-- Define claw support link -->
     <link name="claw_support">
-        <xacro:default_inert mass="0.05"/>
+        <xacro:default_inertial mass="0.05"/>
         <visual>
             <origin rpy="0 0 ${PI / 2}" xyz="0 -0.05 -0.15"/>
             <geometry>
@@ -145,11 +145,11 @@
         <parent link="horizontal_arm"/>
         <child link="claw_support"/>
         <origin rpy="0 0 0" xyz="0 0.82 0"/>
-    </joint>
+    </joint>﻿⁠server-roles﻿ 
 
     <!-- Define right finger link -->
     <link name="right_finger">
-        <xacro:default_inert mass="0.01"/>
+        <xacro:default_inertial mass="0.01"/>
         <visual>
             <origin rpy="0 0 -${PI / 2}" xyz="-0.1 0.5 -0.1"/>
             <geometry>
@@ -175,7 +175,7 @@
 
     <!-- Define left finger link -->
     <link name="left_finger">
-        <xacro:default_inert mass="0.01"/>
+        <xacro:default_inertial mass="0.01"/>
         <visual>
             <origin rpy="0 0 -${PI / 2}" xyz="-0.04 0.5 -0.1"/>
             <geometry>
@@ -203,7 +203,7 @@
 
     <!-- Camera plate -->
     <link name="rgb_camera">
-        <xacro:default_inert mass="0.1"/>
+        <xacro:default_inertial mass="0.1"/>
         <visual>
             <origin rpy="0.2 -0.06 -1.6" xyz="-0.12 0.12 -0.1"/> <!-- Adjusted values --> 
             <geometry>
@@ -211,10 +211,15 @@
             </geometry>
         </visual>
         <collision>
-            <origin rpy="0.2 -0.06 -1.6" xyz="-0.12 0.12 -0.1"/> <!-- Adjusted values --> 
-            <geometry>
-                <mesh filename="package://ros2_bot_description/meshes/pi_camera.STL" scale="${scale}"/>
-            </geometry>
+            <gazebo>
+                <sensor type="camera" name="rgb_camera_sensor">
+                    <always_on>0</always_on>
+                    <update_rate>1</update_rate>
+                    <camera name="rgb_camera"/>
+
+                </sensor>
+            </gazebo>
+
         </collision>
     </link>
 
